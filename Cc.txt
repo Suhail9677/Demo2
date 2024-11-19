@@ -1,0 +1,16 @@
+package Class1;
+
+public class CaseSeccitive {
+	public static void main(String[] args) {
+		String a ="Suhail";
+		if('a'<= a.charAt(0) && 'z' >= a.charAt(0)) {
+			System.out.println("It is Lower Case");
+		}
+		else if('A'<= a.charAt(0) && 'Z' >= a.charAt(0)) {
+			System.out.println("It is Upper Case");
+		}
+		else {
+			System.out.println("It is not a letter");
+		}
+	}
+}
